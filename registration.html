@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="reg.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration Using HTML CSS JavaScriprt</h1>
+    </header>
+    <section>
+
+
+        <div class="StudentList">
+            <h2>Student List</h2>
+            <br>
+            <ol id="StudentList" >
+
+            </ol>
+        </div>
+
+
+        <div class="form">
+            <h2>Registration form</h2>
+            <form>
+                Student Name : <input type="text" id="sname" placeholder="Your  Name"><br>
+                Father Name : <input type="text" id="fname" placeholder="Father Name"><br>
+                Mother Name : <input type="text" id="mname" placeholder="Mother Name"><br>
+                <div id="gender">
+                    Gender : Male<input type="radio" value="male"> Female<input type="radio" value="male"><br>
+                </div>
+
+                DOB : <input type="date" id="date"><br>
+                <input  class ="button" type="button" onclick="add_student()" value="Register">
+            </form>
+
+        </div>
+
+    </section>
+    <footer></footer>
+</body>
+
+</html>
